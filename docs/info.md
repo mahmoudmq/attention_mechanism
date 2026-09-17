@@ -9,12 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The attention mechanism is the core innovation behind transformers - the architecture powering GPT, BERT, and modern AI. 
 
 ## How to test
 
-Explain how to use your project
+Design must implement the following steps:
+
+Compute Q=XWQ, K=XWK, and V=XWV
+Compute attention scores using S=QKT
+Apply scaling with S=S/dk−−√
+Apply softmax (approximation allowed)
+Compute final output by O=softmax(S)V
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A logic Analyzer for verifying the ouputs with respect to the inputs.
